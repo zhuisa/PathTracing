@@ -5,6 +5,7 @@ using namespace glm;
 
 class CSphere
 {
+public:
 	struct SMaterial
 	{
 		float Absorption;

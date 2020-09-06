@@ -1,13 +1,8 @@
 #pragma once
 #include<vector>
 #include<glm/glm.hpp>
-
-#define BOXFACENUM 5
-#define FRONTWALLPOSOTION -0.9
-#define RIGHTWALLPOSITION 0.7
-#define LEFTWALLPOSITION -0.7
-#define DOWNWALLPOSITION -0.5
-#define UPWALLPOSITION 0.5
+#include"CSphere.h"
+#include"Common.cpp"
 
 
 using namespace std;
@@ -41,10 +36,14 @@ public:
 		vec2 UV2;
 	};
 
+	void addSphere(CSphere vSphere);
+	void popSphere();
+
 private:
 	vec3 m_LightPosition;
 	void __defaultScene();
 	SCornellBox m_CornellBox;
+	vector<CSphere> m_Spheres;
 
 };
 

@@ -1,9 +1,20 @@
 #include"CScene.h"
 
+
 CScene::CScene(vec3 vLightPosition)
 {
 	m_LightPosition = vLightPosition;
 	__defaultScene();
+}
+
+void CScene::addSphere(CSphere vSphere)
+{
+	m_Spheres.push_back(vSphere);
+}
+
+void CScene::popSphere()
+{
+	m_Spheres.pop_back();
 }
 
 void CScene::__defaultScene()

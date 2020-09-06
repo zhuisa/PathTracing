@@ -1,0 +1,11 @@
+#define BOXFACENUM 5
+#define FRONTWALLPOSOTION -0.9
+#define RIGHTWALLPOSITION 0.7
+#define LEFTWALLPOSITION -0.7
+#define DOWNWALLPOSITION -0.5
+#define UPWALLPOSITION 0.5
+#define YAW -90.0
+#define PITCH 0.0
+#define SPEED 2.5
+#define SENSITIVITY 0.1
+#define ZOOM 45.0

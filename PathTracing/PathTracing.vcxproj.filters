@@ -26,12 +26,24 @@
     <ClCompile Include="CSphere.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CScene.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CSphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
